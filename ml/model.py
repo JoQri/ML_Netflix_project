@@ -117,7 +117,7 @@ def tr_lgb(X, y, max_depth=2, learning_rate=0.1, n_estimators=100):
     model.fit(X, y)
     return model
 
-def tr_gbm(X, y, max_depth=2, learning_rate=0.1, n_estimators=100):
+def tr_gbr(X, y, max_depth=2, learning_rate=0.1, n_estimators=100):
     model = GradientBoostingRegressor(max_depth=max_depth,
                                       learning_rate=learning_rate,
                                       n_estimators=n_estimators,
